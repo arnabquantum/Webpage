@@ -41,6 +41,7 @@ header nav ul li a {
     text-decoration: none;
 }
 
+/* Hero section styles */
 header .hero {
     text-align: center;
     margin: 20px 0;
@@ -48,8 +49,8 @@ header .hero {
 
 header .hero img.profile-pic {
     border-radius: 50%;
-    width: 150px;
-    height: 150px;
+    width: 200px; /* Adjusted size */
+    height: 200px; /* Adjusted size */
     object-fit: cover;
 }
 
@@ -79,4 +80,3 @@ footer {
     text-align: center;
     padding: 10px 0;
 }
-
