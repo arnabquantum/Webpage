@@ -1,44 +1,52 @@
-body {
-    font-family: Arial, sans-serif;
+/* Reset some default styling */
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
     color: #333;
 }
 
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 header {
-    background: #282c34;
-    color: #fff;
-    text-align: center;
-    padding: 20px;
-    position: relative;
+    background: #f8f9fa;
+    padding: 20px 0;
+    border-bottom: 1px solid #e1e1e1;
 }
 
 nav ul {
     list-style: none;
-    padding: 0;
-    margin: 0;
-    position: absolute;
-    top: 20px;
-    right: 20px;
+    display: flex;
+    justify-content: center;
 }
 
 nav ul li {
-    display: inline;
-    margin: 0 10px;
+    margin: 0 15px;
 }
 
 nav ul li a {
-    color: #61dafb;
     text-decoration: none;
+    color: #333;
+    font-weight: 700;
 }
 
 .hero {
+    text-align: center;
     padding: 60px 20px;
 }
 
 .hero h1 {
-    margin: 0;
     font-size: 3em;
+    margin-bottom: 10px;
 }
 
 .hero p {
@@ -46,27 +54,41 @@ nav ul li a {
 }
 
 .content {
-    padding: 40px 20px;
-    max-width: 800px;
-    margin: 0 auto;
+    padding: 40px 0;
 }
 
-.content h2 {
-    border-bottom: 2px solid #61dafb;
+h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #007bff;
     padding-bottom: 10px;
 }
 
 ul {
-    list-style: disc;
-    padding-left: 20px;
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 10px 0;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 footer {
-    background: #282c34;
-    color: #fff;
+    background: #f8f9fa;
+    padding: 20px 0;
+    border-top: 1px solid #e1e1e1;
     text-align: center;
-    padding: 10px 20px;
-    position: relative;
-    bottom: 0;
-    width: 100%;
+}
+
+footer p {
+    margin: 0;
 }
