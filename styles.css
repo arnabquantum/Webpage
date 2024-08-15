@@ -44,6 +44,14 @@ nav ul li a {
     padding: 60px 20px;
 }
 
+.hero img.profile-pic {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
 .hero h1 {
     font-size: 3em;
     margin-bottom: 10px;
